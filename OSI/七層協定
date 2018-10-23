@@ -1,38 +1,38 @@
-###OSI七層協定
+  ###OSI七層協定
 
-#第一層:實體層 (Physical Layer)
+  #第一層:實體層 (Physical Layer)
 傳送訊號的介質規格: Ex數位訊號
 傳輸規格
 接頭規格
 BNC接頭配RG58纜線
 AUI接頭配AUI纜線
 RJ45接頭配雙絞線
-#第二層:資料鏈結層 (Data Link Layer)
+   #第二層:資料鏈結層 (Data Link Layer)
 決定採用何種介質存取控制(Media Access Control, MAC)方法
 乙太網路採用CSMA/CD 
 定址
 此處的位址稱"實體位址(Physical Address)" 或是 "MAC位址(Media Access Control Address)",是由網路卡製造商在製作過程中直接燒在網路卡晶片中
 可在windows下打"C:/> ipconfig /all" 查看,在linux下打"#ifconfig"查看
-#第三層:網路層 (Network Layer)
+   #第三層:網路層 (Network Layer)
 定址(Addressing) :加上來源和目的位址
 路由(Routing):找尋最佳路徑
-#第四層:傳輸層 (Transport Layer)
+   #第四層:傳輸層 (Transport Layer)
 編定序號(Sequence Number):切割傳輸的內容,給定編號
 流量控制(Flow Control):Host to Host溝通時,協調兩方的傳送速度
 可靠性與效率性(Reliability & Efficiency):兩種是互相抵觸的
 TCP:是一種可靠性的傳輸協定,有偵錯及錯誤處理
 UDP:是一種講究效率的傳輸協定
-#第五層:會議層 (Session Layer):負責兩部電腦之間的連線,包括建立連線和結束連線
+   #第五層:會議層 (Session Layer):負責兩部電腦之間的連線,包括建立連線和結束連線
 單工模式:例如廣播電台
 半雙工模式:無法同時做雙向資料的傳輸,例如無線對講機
 全雙工模式:例如電話
-#第六層:表現層 (Presentation Layer)
+   #第六層:表現層 (Presentation Layer)
 編碼與轉碼
 壓縮與解壓縮
 加密與解密
 
 
-#第七層:應用層 (Application Layer):能直接協助使用者操作的軟體
+   #第七層:應用層 (Application Layer):能直接協助使用者操作的軟體
 上網使用的瀏覽器
 收發信軟體
 傳送檔案的FileZilla軟體
