@@ -1,24 +1,27 @@
->* #include<stdio.h>
->*int main()
->*{
->*    int base, exponent, i, power;
+
+---------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int base, exponent, i, power;
 
    
->*    //caculatinh power of given number using for loop
->*    for(i=1; i<=5; i++)
->*        power = power * 2;
+    //caculatinh power of given number using for loop
+    for(i=1; i<=5; i++)
+       power = power * 2;
 
->*    printf("2**5= : %d", power);
->*    return 0;
->* }
-
-
+    printf("2**5= : %d", power);
+    return 0;
+}
 
 
 
 
 
->* #include<stdio.h>
+
+---------------------------------------------------------------
+
+#include<stdio.h>
 int main()
 {
     int base, exponent,power, i;
@@ -37,8 +40,9 @@ int main()
 
 
 
+---------------------------------------------------------------
 
->* #include<stdio.h>
+#include<stdio.h>
 #include<conio.h>
 int main(void)
 {
@@ -62,7 +66,7 @@ int main(void)
 }
 
 
-
+---------------------------------------------------------------
 >* #include <stdio.h>
 
 int power(int n1, int n2);
