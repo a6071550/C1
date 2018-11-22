@@ -1,5 +1,5 @@
 
----------------------------------------------------------------
+'''
 #include<stdio.h>
 int main()
 {
@@ -14,14 +14,14 @@ int main()
     return 0;
 }
 
+'''
 
 
 
 
 
----------------------------------------------------------------
-
-#include<stdio.h>
+'''
+ #include<stdio.h>
 int main()
 {
     int base, exponent,power, i;
@@ -38,10 +38,9 @@ int main()
     return 0;
 }
 
+'''
 
-
----------------------------------------------------------------
-
+'''
 #include<stdio.h>
 #include<conio.h>
 int main(void)
@@ -64,9 +63,9 @@ int main(void)
     return 0;
     getch();
 }
+'''
 
-
----------------------------------------------------------------
+'''
 #include <stdio.h>
 
 int power(int n1, int n2);
@@ -89,4 +88,4 @@ int power(int base, int powerRaised)
     else
         return 1;
 }
-![][foryou]
+'''
