@@ -1,16 +1,16 @@
 >* #include<stdio.h>
-int main()
-{
-    int base, exponent, i, power;
+>*int main()
+>*{
+>*    int base, exponent, i, power;
 
    
-    //caculatinh power of given number using for loop
-    for(i=1; i<=5; i++)
-        power = power * 2;
+>*    //caculatinh power of given number using for loop
+>*    for(i=1; i<=5; i++)
+>*        power = power * 2;
 
-    printf("2**5= : %d", power);
-    return 0;
-}
+>*    printf("2**5= : %d", power);
+>*    return 0;
+>* }
 
 
 
