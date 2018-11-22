@@ -1,5 +1,4 @@
-
-'''
+```
 #include<stdio.h>
 int main()
 {
@@ -14,13 +13,13 @@ int main()
     return 0;
 }
 
-'''
+```
 
 
 
 
 
-'''
+```
  #include<stdio.h>
 int main()
 {
@@ -38,9 +37,9 @@ int main()
     return 0;
 }
 
-'''
+```
 
-'''
+```
 #include<stdio.h>
 #include<conio.h>
 int main(void)
@@ -63,9 +62,9 @@ int main(void)
     return 0;
     getch();
 }
-'''
+```
 
-'''
+```
 #include <stdio.h>
 
 int power(int n1, int n2);
