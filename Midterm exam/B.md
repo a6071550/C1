@@ -67,7 +67,7 @@ int main(void)
 
 
 ---------------------------------------------------------------
->* #include <stdio.h>
+#include <stdio.h>
 
 int power(int n1, int n2);
 
